@@ -1,0 +1,168 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Login page styles */
+  #login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #login-form h2 {
+    text-align: center;
+  }
+  
+  #login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #login-form input[type="text"],
+  #login-form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #login-form button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Dashboard page styles */
+  #dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #dashboard h2 {
+    margin-bottom: 1rem;
+  }
+  
+  #dashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #dashboard ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+  }
+  
+  #dashboard ul li:last-child {
+    border-bottom: none;
+  }
+  
+  #dashboard ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Patient details page styles */
+  #patient-details {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #patient-details h2 {
+    margin-bottom: 1rem;
+  }
+  
+  #patient-details dl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  #patient-details dl dt {
+    font-weight: bold;
+  }
+  
+  /* Edit patient details page styles */
+  #edit-patient-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #edit-patient-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  #edit-patient-form form div {
+    margin-bottom: 1rem;
+  }
+  
+  #edit-patient-form form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #edit-patient-form form input[type="text"],
+  #edit-patient-form form input[type="number"],
+  #edit-patient-form form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #edit-patient-form form button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  

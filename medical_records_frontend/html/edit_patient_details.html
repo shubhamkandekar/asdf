@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Patient Details</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Edit Patient Details</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Hospitals</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="edit-patient-form">
+            <h2>Edit Patient Information</h2>
+            <form id="patient-form">
+                <div>
+                    <label for="patient-name">Name:</label>
+                    <input type="text" id="patient-name" name="patient-name">
+                </div>
+                <div>
+                    <label for="patient-age">Age:</label>
+                    <input type="number" id="patient-age" name="patient-age">
+                </div>
+                <div>
+                    <label for="patient-gender">Gender:</label>
+                    <select id="patient-gender" name="patient-gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <!-- Additional fields for prescription and remarks -->
+                <div>
+                    <label for="patient-prescription">Prescription:</label>
+                    <textarea id="patient-prescription" name="patient-prescription"></textarea>
+                </div>
+                <div>
+                    <label for="patient-remarks">Remarks:</label>
+                    <textarea id="patient-remarks" name="patient-remarks"></textarea>
+                </div>
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Medical Records Inc.</p>
+    </footer>
+    <script src="../js/edit_patient_details.js"></script>
+</body>
+
+</html>
